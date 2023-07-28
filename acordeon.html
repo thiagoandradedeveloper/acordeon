@@ -13,6 +13,7 @@
                 elemento.addEventListener("click",function(){
                     
                     this.classList.toggle("selecionado");
+//a linha abaixo seleciona o próximo irmão 
                     const painel = this.nextElementSibling;
                     
                     if(painel.style.maxHeight){
